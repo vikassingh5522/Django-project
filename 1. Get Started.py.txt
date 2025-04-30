@@ -1,0 +1,108 @@
+# Django is a Framework of Python - so we Required Python software in our system
+
+# search on google - download python and open python.org.download link and download latest version and install
+
+# While installation - tick mark all check boxes while installation, click to custom installation and tick mark all check boxes and next next and install python
+
+# Open command prompt and type:
+C:\Users\Desktop> py or python
+
+# it gives you installed version with python prompt
+
+>>>
+
+# means python successfully installed in our system.
+
+
+# python --version ✅ - it will show installed python version
+
+Using py -m pip install django  ✅    
+# command we can install django framework
+
+# django-admin --version   ✅
+# we can check installed django version
+
+# In Microsft VS Code install django extension 
+
+
+////////////////////////////////////////
+
+if PY NAD DJANGO IS install
+Microsoft Windows [Version 10.0.22631.2715]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\Asus>python --version
+Python 3.11.6
+
+C:\Users\Asus>pip --version
+pip 23.3.1 from C:\Users\Asus\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\pip (python 3.11)
+
+C:\Users\Asus>pip list
+Package  Version
+-------- -------
+asgiref  3.7.2
+Django   4.2.7
+pip      23.3.1
+sqlparse 0.4.4
+tzdata   2023.3
+
+C:\Users\Asus>python -m pip install django
+Requirement already satisfied: django in c:\users\asus\appdata\local\packages\pythonsoftwarefoundation.python.3.11_qbz5n2kfra8p0\localcache\local-packages\python311\site-packages (4.2.7)
+Requirement already satisfied: asgiref<4,>=3.6.0 in c:\users\asus\appdata\local\packages\pythonsoftwarefoundation.python.3.11_qbz5n2kfra8p0\localcache\local-packages\python311\site-packages (from django) (3.7.2)
+Requirement already satisfied: sqlparse>=0.3.1 in c:\users\asus\appdata\local\packages\pythonsoftwarefoundation.python.3.11_qbz5n2kfra8p0\localcache\local-packages\python311\site-packages (from django) (0.4.4)
+Requirement already satisfied: tzdata in c:\users\asus\appdata\local\packages\pythonsoftwarefoundation.python.3.11_qbz5n2kfra8p0\localcache\local-packages\python311\site-packages (from django) (2023.3)
+
+C:\Users\Asus>django-admin --version
+'django-admin' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Asus>py -m PIP install django
+C:\Users\Asus\AppData\Local\Programs\Python\Python312\python.exe: No module named PIP
+
+C:\Users\Asus>py -m pip install django
+Collecting django
+  Obtaining dependency information for django from https://files.pythonhosted.org/packages/ba/c7/61b02c0ef9e129080a8c2bffefb3cb2b9ddddece4c44dc473c1c4f0647c1/Django-5.0-py3-none-any.whl.metadata
+  Downloading Django-5.0-py3-none-any.whl.metadata (4.1 kB)
+Collecting asgiref>=3.7.0 (from django)
+  Obtaining dependency information for asgiref>=3.7.0 from https://files.pythonhosted.org/packages/9b/80/b9051a4a07ad231558fcd8ffc89232711b4e618c15cb7a392a17384bbeef/asgiref-3.7.2-py3-none-any.whl.metadata
+  Downloading asgiref-3.7.2-py3-none-any.whl.metadata (9.2 kB)
+Collecting sqlparse>=0.3.1 (from django)
+  Downloading sqlparse-0.4.4-py3-none-any.whl (41 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 41.2/41.2 kB 11.4 kB/s eta 0:00:00
+Collecting tzdata (from django)
+  Downloading tzdata-2023.3-py2.py3-none-any.whl (341 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 341.8/341.8 kB 9.7 kB/s eta 0:00:00
+Downloading Django-5.0-py3-none-any.whl (8.1 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 8.1/8.1 MB 275.7 kB/s eta 0:00:00
+Downloading asgiref-3.7.2-py3-none-any.whl (24 kB)
+Installing collected packages: tzdata, sqlparse, asgiref, django
+  WARNING: The script sqlformat.exe is installed in 'C:\Users\Asus\AppData\Local\Programs\Python\Python312\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The script django-admin.exe is installed in 'C:\Users\Asus\AppData\Local\Programs\Python\Python312\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+Successfully installed asgiref-3.7.2 django-5.0 sqlparse-0.4.4 tzdata-2023.3
+
+[notice] A new release of pip is available: 23.2.1 -> 23.3.1
+[notice] To update, run: C:\Users\Asus\AppData\Local\Programs\Python\Python312\python.exe -m pip install --upgrade pip
+
+C:\Users\Asus>
+                                     #it install the django
+
+
+
+
+                                    UNSTALL DJANGO
+                                    Microsoft Windows [Version 10.0.22631.2792]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\Asus>pip uninstall django
+Found existing installation: Django 4.2.7
+Uninstalling Django-4.2.7:
+  Would remove:
+    c:\users\asus\appdata\local\packages\pythonsoftwarefoundation.python.3.11_qbz5n2kfra8p0\localcache\local-packages\python311\scripts\django-admin.exe
+    c:\users\asus\appdata\local\packages\pythonsoftwarefoundation.python.3.11_qbz5n2kfra8p0\localcache\local-packages\python311\site-packages\django-4.2.7.dist-info\*
+    c:\users\asus\appdata\local\packages\pythonsoftwarefoundation.python.3.11_qbz5n2kfra8p0\localcache\local-packages\python311\site-packages\django\*
+Proceed (Y/n)? y
+  Successfully uninstalled Django-4.2.7
+
+C:\Users\Asus>
